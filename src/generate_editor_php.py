@@ -5,14 +5,6 @@ def generate_editor_php(directory_path):
 
     include_once $_SERVER['DOCUMENT_ROOT']. '/modules/rs/requires/reader.php';
 
-    function read_json_file($file) {{
-        if (!file_exists($file)) {{
-            return [];
-        }}
-        $json_data = file_get_contents($file);
-        return json_decode($json_data, true);
-    }}
-
     // Function to write to JSON file
     function write_json_file($file, $data) {{
         $json_data = json_encode($data, JSON_PRETTY_PRINT);

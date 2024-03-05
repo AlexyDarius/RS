@@ -115,8 +115,6 @@ include $_SERVER['DOCUMENT_ROOT']. '/includes/navbar.php'
 
 </body>
 
-<script src="js/reader.js"></script>
-
 <?php
 include $_SERVER['DOCUMENT_ROOT']. '/includes/footer.php'
 ?>
