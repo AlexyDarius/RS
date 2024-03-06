@@ -90,7 +90,7 @@ include $_SERVER['DOCUMENT_ROOT']. '/includes/navbar.php'
                             </div>
                     </div>
                     <?php endforeach; ?>
-                    <?php if (count($instagram_posts) < 3): ?>
+                    <?php if (count($facebook_posts) < 3): ?>
                         <h3 style="font-weight: bold; margin-top: 24px">Ajouter un nouveau post Facebook</h3>
                         <div>
                             <p style="margin-bottom: 4px">Format de l'url : "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fledarius.pizzas%2Fposts%2F846898600135380&width=350&show_text=true&height=577&appId" <br>(rajouter le "/embed" si il n'est pas présent). Plus d'informations <a href="hhttps://www.facebook.com/help/www/215768235242256">ici</a></p>
